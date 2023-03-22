@@ -1,0 +1,134 @@
+{
+  "customers": [
+    {
+      "firstName": "Reagan",
+      "lastName": "Courtese",
+      "gender": "Female",
+      "address": "886 Barby Pointt",
+      "accountType": "saving",
+      "amount": 6700,
+      "id": "2da6cbc8-3240-4bc8-b31c-60f62564fe37"
+    },
+    {
+      "firstName": "Charlaa",
+      "lastName": "Courteney",
+      "gender": "Female",
+      "address": "89 Dapin Point",
+      "accountType": "checking",
+      "amount": 108,
+      "id": "ca32646f-e09e-462d-b1e5-76cd9eb16d87"
+    },
+    {
+      "firstName": "Bogey",
+      "lastName": "Stothard",
+      "gender": "Male",
+      "address": "58 Pleasure Point",
+      "accountType": "saving",
+      "amount": 10,
+      "id": "7578e374-6dac-4410-9cfb-ef0ef1abb89d"
+    },
+    {
+      "firstName": "Temple",
+      "lastName": "Roston",
+      "gender": "Male",
+      "address": "734 Fairview Center",
+      "accountType": "checking",
+      "amount": 179,
+      "id": "0074b69f-911e-4c79-b8bb-dbac982f5e1f"
+    },
+    {
+      "id": "98ea2b1b-e25f-47d9-b5c5-8c8b2b9199f4",
+      "firstName": "Felicity",
+      "lastName": "Dayton",
+      "email": "fdayton5@sohu.com",
+      "gender": "Female",
+      "address": "27553 Coleman Street",
+      "accountType": "saving",
+      "amount": 10
+    },
+    {
+      "id": "a6d48d15-4db1-47e5-9d33-f8545f4a6462",
+      "firstName": "Louella",
+      "lastName": "Felder",
+      "email": "lfelder6@macromedia.com",
+      "gender": "Female",
+      "address": "3 American Ash Terrace",
+      "accountType": "saving",
+      "amount": 100
+    },
+    {
+      "id": "01a1e4e1-5e8a-4669-a4cb-03782bf30d7b",
+      "firstName": "Alfreda",
+      "lastName": "Bendon",
+      "email": "abendon7@e-recht24.de",
+      "gender": "Female",
+      "address": "5 Loomis Terrace",
+      "accountType": "saving",
+      "amount": 1000
+    },
+    {
+      "id": "0126e908-e7c5-40b3-8667-a40ade36eccb",
+      "firstName": "Sara",
+      "lastName": "Bischoff",
+      "email": "sbischoff8@chicagotribune.com",
+      "gender": "Female",
+      "address": "6239 Alpine Trail",
+      "accountType": "saving",
+      "amount": 1
+    },
+    {
+      "firstName": "Abdelkadous",
+      "lastName": "ES-SEHYMY",
+      "gender": "Male",
+      "address": "Rabat",
+      "accountType": "1",
+      "id": "GcB4iIv",
+      "amount": 1
+    },
+    {
+      "firstName": "Mohamed",
+      "lastName": "Mohamed",
+      "gender": "Male",
+      "address": "Casa",
+      "accountType": "2",
+      "id": "30390048-a6e0-44dd-a24b-370bb10906f5",
+      "amount": 1000
+    },
+    {
+      "firstName": "Anas",
+      "lastName": "Anas",
+      "gender": "Male",
+      "address": "Safi",
+      "accountType": "checking",
+      "id": "04744c5b-e126-4f85-b973-bbb2940fc61e",
+      "amount": 10
+    },
+    {
+      "firstName": "Yassine",
+      "lastName": "Yassine",
+      "gender": "Male",
+      "address": "Rabat, Hay Riad",
+      "accountType": "checking",
+      "amount": 888,
+      "id": "ef1869b3-dbe2-435d-b39f-46f2a3ea9ec3"
+    },
+    {
+      "firstName": "Amine",
+      "lastName": "Amine",
+      "gender": "Male",
+      "address": "886 Barby Pointt",
+      "accountType": "saving",
+      "amount": 99,
+      "id": "87f4ca0c-5a6f-42ba-a748-f6c559f1dd97"
+    },
+    {
+      "firstName": "Ilyas",
+      "lastName": "Ilyas",
+      "gender": "male",
+      "address": "Tanger",
+      "accountType": "checking",
+      "amount": 2,
+      "id": "c8f3689e-bc7c-4934-8cc2-3bc1ccca716a"
+    }
+  ]
+}

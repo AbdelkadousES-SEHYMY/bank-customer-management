@@ -1,0 +1,79 @@
+<div class="flex flex-col items-center w-1/2 mx-auto">
+    <h1>Create</h1>
+    <form [formGroup]="customerForm" (ngSubmit)="submit()" class="flex flex-col w-full gap-6 mt-6">
+
+
+        <div class="flex flex-col gap-2">
+            <label for="description">firstName *</label>
+            <input type="text" id="firstName" formControlName="firstName" class="border rounded-md shadow px-4 py-2">
+            <small class="text-red-500" *ngIf="getControl('firstName')?.hasError('required') && getControl('firstName')?.touched">
+                firstName is required
+            </small>
+        </div>
+
+        <div class="flex flex-col gap-2">
+            <label for="lastName">lastName *</label>
+            <input type="text" id="lastName" formControlName="lastName" class="border rounded-md shadow px-4 py-2">
+            <small class="text-red-500" *ngIf="getControl('lastName')?.hasError('required') && getControl('lastName')?.touched">
+                lastName is required
+            </small>
+        </div>
+
+        <!-- <div class="flex flex-col gap-2">
+            <label for="gender">gender *</label>
+            <input type="text" id="gender" formControlName="gender" class="border rounded-md shadow px-4 py-2">
+            <small class="text-red-500" *ngIf="getControl('gender')?.hasError('required') && getControl('gender')?.touched">
+                gender is required
+            </small>
+        </div> -->
+        <div class="flex flex-col gap-2">
+            <label for="accountType">gender *</label>
+            <!-- <input type="text" id="accountType" formControlName="accountType" class="border rounded-md shadow px-4 py-2"> -->
+            <select data-te-select-init class="border rounded-md shadow px-4 py-2"  id="gender" formControlName="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Fmale</option>
+              </select>
+            <small class="text-red-500" *ngIf="getControl('gender')?.hasError('required') && getControl('gender')?.touched">
+                gender is required
+            </small>
+        </div>
+
+        <div class="flex flex-col gap-2">
+            <label for="address">Address *</label>
+            <input type="text" id="address" formControlName="address" class="border rounded-md shadow px-4 py-2">
+            <small class="text-red-500" *ngIf="getControl('address')?.hasError('required') && getControl('address')?.touched">
+                address is required
+            </small>
+        </div>
+        <div class="flex flex-col gap-2">
+            <label for="amount">Amount *</label>
+            <input type="number" id="amount" min="0" formControlName="amount" class="border rounded-md shadow px-4 py-2">
+            <small class="text-red-500" *ngIf="getControl('amount')?.hasError('required') && getControl('amount')?.touched">
+                amount is required
+            </small>
+        </div>
+
+        <div class="flex flex-col gap-2">
+            <label for="accountType">Account Type *</label>
+            <!-- <input type="text" id="accountType" formControlName="accountType" class="border rounded-md shadow px-4 py-2"> -->
+            <select data-te-select-init class="border rounded-md shadow px-4 py-2"  id="accountType" formControlName="accountType">
+                <option value="checking">checking</option>
+                <option value="saving">saving</option>
+                
+              </select>
+            <small class="text-red-500" *ngIf="getControl('accountType')?.hasError('required') && getControl('accountType')?.touched">
+                accountType is required
+            </small>
+        </div>
+
+       
+   
+
+      
+        <button type="submit"
+            class="border border-green-400 rounded-md shadow p-2 bg-green-400 hover:bg-green-500 text-green-900 w-1/3 ml-auto disabled:opacity-50"
+            [disabled]="isLoading || !canSubmit()"
+            >{{isLoading ? 'Creation...': 'Create'}}</button>
+    </form>
+</div>
+

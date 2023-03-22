@@ -16,6 +16,7 @@ import { DashboardRouteComponent } from './dashboard-route/dashboard-route.compo
 import { ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {NgxPaginationModule} from 'ngx-pagination'; // <-- import the module
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import {NgxPaginationModule} from 'ngx-pagination'; // <-- import the module
     BrowserAnimationsModule, // required animations module
     NgxPaginationModule,
     ToastrModule.forRoot(),
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

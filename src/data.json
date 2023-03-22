@@ -37,14 +37,13 @@
       "id": "0074b69f-911e-4c79-b8bb-dbac982f5e1f"
     },
     {
-      "id": "98ea2b1b-e25f-47d9-b5c5-8c8b2b9199f4",
       "firstName": "Felicity",
       "lastName": "Dayton",
-      "email": "fdayton5@sohu.com",
       "gender": "Female",
       "address": "27553 Coleman Street",
-      "accountType": "saving",
-      "amount": 10
+      "accountType": "checking",
+      "amount": 109,
+      "id": "98ea2b1b-e25f-47d9-b5c5-8c8b2b9199f4"
     },
     {
       "id": "a6d48d15-4db1-47e5-9d33-f8545f4a6462",
@@ -108,8 +107,8 @@
       "lastName": "Yassine",
       "gender": "Male",
       "address": "Rabat, Hay Riad",
-      "accountType": "checking",
-      "amount": 888,
+      "accountType": "saving",
+      "amount": 8888,
       "id": "ef1869b3-dbe2-435d-b39f-46f2a3ea9ec3"
     },
     {
@@ -129,6 +128,15 @@
       "accountType": "checking",
       "amount": 2,
       "id": "c8f3689e-bc7c-4934-8cc2-3bc1ccca716a"
+    },
+    {
+      "firstName": "Amal",
+      "lastName": "Amal",
+      "gender": "Male",
+      "address": "899 Dapin ",
+      "accountType": "checking",
+      "amount": 8,
+      "id": "8aaff3b2-8836-40f2-a9ce-93e8dfe676e0"
     }
   ]
 }
